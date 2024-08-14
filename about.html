@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo"><span>P</span>ortfolio</a>
+
+
+        
+
+        <ul class="navbar">
+            <li class="hideOnMobile"><a href="index.html" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="education.html">Education</a></li>
+            <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+            <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1Bb7fJwsHzHg2-VC0d4XLWr4rSkFcM19q/view?usp=sharing" target="_blank">Resume</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li ></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li style="font-size: 50%;" onclick=hideSidebar()><a href="#"><i class='bx bx-x'></i></a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1Bb7fJwsHzHg2-VC0d4XLWr4rSkFcM19q/view?usp=sharing" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li onclick=showSidebar()><a href="#"><i class='bx bx-menu'></i></a></li> -->
+        </ul>
+
+        
+
+        <div class="menu-btn">
+            <span>MENU</span>
+            <div onclick=showSidebar()><a href="#"><i id="btn" class='bx bx-menu'></i></a></div>
+            
+        </div>
+        
+
+    </header>
+    <br><br>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="Image.jpg" alt="Profile Image">
+            
+            </div>
+            
+            <div class="about-text">
+                <h2>ABOUT</h2>
+                <p>Focused and enthusiastic developer with a keen interest in software development. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.</p><br>
+                <ul>
+                    <li><strong>Birthday:</strong> 28 December 2003</li>
+                    <li><strong>City:</strong> Bobbili ,Vizianagaram , 535558 , AndhraPradesh</li>
+                    <li><strong>Phone:</strong> +91 6304353934</li>
+                    <li><strong>Email:</strong> sampathtalada@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests">
+        <h2>INTERESTS</h2>
+        <div class="interests-container">
+            <div class="interest-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Software Development</h3>
+            </div>
+            
+            
+            <div class="interest-box">
+                <i class='bx bx-globe'></i>
+                <h3>Web Development</h3>
+            </div>
+            <div class="interest-box">
+                <i class='bx bx-cog'></i>
+                <h3>Software Engineering</h3>
+            </div>
+            <div class="interest-box">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <h3>Data Structures</h3>
+            </div>
+            <div class="interest-box">
+                <i class='bx bx-notepad'></i>
+                <h3>Algorithms</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

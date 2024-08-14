@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo"><span>P</span>ortfolio</a>
+
+
+        
+
+        <ul class="navbar">
+            <li class="hideOnMobile"><a href="index.html" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="#">Education</a></li>
+            <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+            <li class="hideOnMobile"><a href="skills.html">Skills</a></li>
+            <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1Bb7fJwsHzHg2-VC0d4XLWr4rSkFcM19q/view?usp=sharing" target="_blank">Resume</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li ></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li style="font-size: 50%;" onclick=hideSidebar()><a href="#"><i class='bx bx-x'></i></a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1Bb7fJwsHzHg2-VC0d4XLWr4rSkFcM19q/view?usp=sharing" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li onclick=showSidebar()><a href="#"><i class='bx bx-menu'></i></a></li> -->
+        </ul>
+
+        
+
+        <div class="menu-btn">
+            <span>MENU</span>
+            <div onclick=showSidebar()><a href="#"><i id="btn" class='bx bx-menu'></i></a></div>
+            
+        </div>
+        
+
+    </header>
+    <br>
+
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <img src="Sricity.jpg" alt="Sathyabama Institute of Science and Technology">
+                <div class="education-text">
+                    <h3>B.Tech. in Computer Science</h3>
+                    <p>2021 - Present</p>
+                    <p>Relevant Coursework</p>
+                    <ul>
+                        <li>Computer Science Engineering</li>
+                        <li>Python development</li>
+                        <li>Machine Learning</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="education-box">
+                <img src="SriChaitanyaCollege.jpg" alt="Narayana Educational Institutions">
+                <div class="education-text">
+                    <h3>Intermediate in MPC Course</h3>
+                    <p>2019 - 2021</p>
+                    <p>Relevant Coursework</p>
+                    <ul>
+                        <li>Mathematics</li>
+                        <li>English (First language)</li>
+                        <li>IIT Training</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="education-box">
+                <img src="SriChaitanyaSchool.jpg" alt="Sri Chaitanya Techno School">
+                <div class="education-text">
+                    <h3>Primary Studies</h3>
+                    <p>2013 - 2019</p>
+                    <p>Relevant Coursework</p>
+                    <ul>
+                        <li>Mathematics</li>
+                        <li>Telugu (First language)</li>
+                        <li>Remaining Standard Subjects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
